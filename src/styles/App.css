@@ -1,0 +1,27 @@
+.game-title{
+    position:absolute;
+    top: 0px;
+    color: #17B978;
+    font-size: 4rem;
+    margin: 0;
+    font-family: 'Cinzel', serif;
+ 
+}
+
+.restart-game{
+    position: absolute;
+    bottom: -250px;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.6rem;
+
+}
+.restart-game:hover{
+    background-color: black;
+    color:greenyellow;
+}

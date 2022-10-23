@@ -1,0 +1,81 @@
+.input-container{
+    height: 620px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:100px;
+    align-items: center;
+}
+
+.character-box{
+    width: 100px;
+    height: 100px;
+    border: none;
+    background-color: #EEEEEE;
+    color: #222831;
+    font-size: 2.6rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wordle-row-container{
+    width: 600px;
+    height: 100px;
+    gap:10px;
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.input-field{
+    outline: none;
+    border: none;
+    opacity: 0;
+}
+
+
+.not-correct-position{
+    background-color: black;
+}
+
+.corect-position{
+    background-color:green;
+}
+.partial-correct-position{
+    background-color: yellow;
+}
+.item-front-flip{
+    color: #EEEEEE;
+    transform: rotateX(-360deg);
+    transition: all linear 0.9s;
+    transform-style: preserve-3d;
+
+}
+
+.wrong-word{
+    font-size: 1rem;
+    color: #EEEEEE;
+    transition: all 0.5s linear;
+    position: absolute;
+}
+
+.incorrect-Length, .wrong-word{
+    font-size: 1rem;
+    color: #00ADB5;
+    position: absolute;
+    top: -40px;
+    animation: shake 0.4s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    
+}
+
+
+@keyframes shake {
+    0% { transform: translateX(0) }
+    25% { transform: translateX(5px) }
+    50% { transform: translateX(-5px) }
+    75% { transform: translateX(5px) }
+    100% { transform: translateX(0) }
+  }

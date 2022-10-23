@@ -1,0 +1,91 @@
+.popup-modal{
+    width: 400px;
+    height: 400px;
+    background-color: #17B978;
+    font-size: 0.8rem;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    z-index: 100;
+    opacity: 0;
+    transition: all 2s linear;
+    border-radius: 3px;
+    top: 200px;
+    
+}
+.popup-modal--open {
+    opacity: 1;
+}
+
+
+
+.win-tex{
+    color: #EEE;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.loose-text{
+    color: #000806;
+    font-size: 2rem;
+    text-align: center;
+}
+.heading-popup{
+    position: relative;
+    
+}
+
+.button-container{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: #EEE;
+    font-size: 1rem;
+    border: none;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+.btn:hover{
+    background-color: #EEE;
+    color: black;
+}
+
+.correct-word{
+    text-align: center;
+    position: relative;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.correct-heading{
+    color: #EEE;
+    font-size: 1.4rem;
+}
+.popup-layover{
+    position: absolute;
+    width: 1980px;
+    height: 1080px;
+    background-color: rgb(85, 85, 83);
+    top:-50px;
+    opacity:0.5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 99;
+    transition-delay: 1s;
+    transition: all linear 1s;
+}
+
+

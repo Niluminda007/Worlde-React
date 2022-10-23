@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #393E46;
+}
+
+#root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 30px;
+}
