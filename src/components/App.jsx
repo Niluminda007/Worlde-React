@@ -31,12 +31,12 @@ class App extends Component{
     }
     
 
+    
     render(){
         const {wordleWord} = this.state
         const {game_over,user_won} = this.context
 
         if(wordleWord){
-            console.log(wordleWord)
             return(
                 <>
                     <h1 className="game-title">Wordle</h1>
