@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Worlde-React/static/css/main.f2fd9767.css",
+    "main.js": "/Worlde-React/static/js/main.0dd477e0.js",
+    "index.html": "/Worlde-React/index.html",
+    "main.f2fd9767.css.map": "/Worlde-React/static/css/main.f2fd9767.css.map",
+    "main.0dd477e0.js.map": "/Worlde-React/static/js/main.0dd477e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2fd9767.css",
+    "static/js/main.0dd477e0.js"
+  ]
+}
