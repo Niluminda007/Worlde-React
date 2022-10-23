@@ -47,11 +47,15 @@ class RowInterface extends Component{
             
         }
     }
+    handleKeyChnage = (e)=>{
+        
+
+    }
     render(){
         return(
             <>
             <div className="user-input">
-                <input type="text" className="input-field" value={this.state.userInput} onKeyDown={this.handleChange}   ref={this.props.inputRef} readOnly={true}/>
+                <input autoFocus  type="text" className="input-field" value={this.state.userInput} onChange={this.handleKeyChnage} onKeyDown={this.handleChange}   ref={this.props.inputRef} />
             </div>
             <div className="wordle-row-container">
             {
